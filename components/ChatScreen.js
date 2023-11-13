@@ -192,6 +192,12 @@ const MessageContainer = styled.div`
  padding: 30px;
  background-color: #e5ded8;
  min-height: 90vh;
+  @media (max-width:520px){
+  padding: 20px;
+ }
+ @media (max-width:498px){
+  padding: 15px;
+ }
 
 `;
 const InputContainer = styled.form`
