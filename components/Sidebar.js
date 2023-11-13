@@ -9,7 +9,7 @@ import  EmailValidator from "email-validator";
 import { auth, db } from '../firebase';
 import {useAuthState} from "react-firebase-hooks/auth";
 import {useCollection} from "react-firebase-hooks/firestore";
-import ChatI from './chat';
+import ChatI from './Chat';
 
 
 function Sidebar() {
