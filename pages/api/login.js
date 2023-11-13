@@ -58,8 +58,28 @@ const LoginContainer = styled.div`
  background-color:white;
  border-radius: 5px;
  box-shadow: 0px 4px 14px -3px rgba(0,0,0.7);
-
+ @media (max-width:550px){
+  padding:30px;
+}
+@media (max-width:350px){
+  padding: 17px;
+}
+@media (max-width:275px){
+  padding: 10px;
+}
+@media (max-width:250px){
+  padding: 3px;
+}
+@media (max-width:220px){
+  padding: 1px;
+}
 `;
+
+
+
+ 
+
+
 
 
 
