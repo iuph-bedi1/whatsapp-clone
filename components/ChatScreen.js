@@ -133,7 +133,12 @@ function Chatscreen({chat,messages}) {
 export default Chatscreen;
 
 const Container = styled.div`
- 
+ @media (max-width:520px){
+    padding: 21px;
+ }
+ @media (max-width:498px){
+  padding: 15px;
+ }
 
 `;
 const Input = styled.input`
