@@ -17,7 +17,7 @@ import firebase from 'firebase/compat/app';
 import getRecipientEmail from '../utilis/getRecipientEmail';
 import TimeAgo from "timeago-react";
 
-function chatscreen({chat,messages}) {
+function Chatscreen({chat,messages}) {
     const [user] = useAuthState(auth);
     const [input,setInput] = useState("");
     const router = useRouter();
@@ -130,7 +130,7 @@ function chatscreen({chat,messages}) {
   )
 }
 
-export default chatscreen;
+export default Chatscreen;
 
 const Container = styled.div`
  
