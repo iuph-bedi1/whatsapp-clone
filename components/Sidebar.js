@@ -82,6 +82,16 @@ const Container = styled.div`
   min-width: 300px;
   max-width: 350px;
   overflow-y:scroll;
+   @media (max-width:590px){
+    min-width: 250px;
+  }
+  @media (max-width:486px){
+    min-width:180px;
+  }
+  @media (max-width:375px){
+    min-width: 140px;
+  }
+
 
 
   ::-webkit-scrollbar {
